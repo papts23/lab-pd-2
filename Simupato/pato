@@ -1,0 +1,18 @@
+public abstract class Pato {
+    Cuaqueable cuaqueble;
+    Volable volar;
+  
+    public Pato(Cuaqueable cuaqueble, Volable volar) {
+        this.cuaqueble = cuaqueble;
+        this.volar = volar;
+    }
+
+    public void setCuaqueble(Cuaqueable cuaqueble) {
+        this.cuaqueble = cuaqueble;
+    }
+
+    public void setVolar(Volable volar) {
+        this.volar = volar;
+    }
+    
+}
