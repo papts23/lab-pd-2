@@ -1,0 +1,8 @@
+public class CuaqueoMudo implements Cuaqueable{
+
+    @Override
+    public void cuaquear() {
+        System.out.println("<<Silencio>>");; // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+    
+}
