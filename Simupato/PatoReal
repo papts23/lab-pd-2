@@ -1,0 +1,12 @@
+public class PatoReal extends Pato{
+
+    public PatoReal(Cuaqueable cuaqueble, Volable volar) {
+        super(cuaqueble, volar);
+    }
+
+    @Override
+    public void mostrar() {
+        System.out.println("Soy un verdadero Pato Real");
+    }
+    
+}

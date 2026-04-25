@@ -14,5 +14,5 @@ public abstract class Pato {
     public void setVolar(Volable volar) {
         this.volar = volar;
     }
-    
+    public abstract void mostrar();
 }
