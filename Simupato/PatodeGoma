@@ -1,0 +1,22 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package simupato;
+
+/**
+ *
+ * @author sistemas
+ */
+public class PatodeGoma extends Pato{
+
+    public PatodeGoma(Cuaqueable cuaqueble, Volable volar) {
+        super(cuaqueble, volar);
+    }
+
+    @Override
+    public void mostrar() {
+        System.out.println("Soy un Pato de Goma");
+    }
+    
+}
