@@ -1,7 +1,8 @@
 public abstract class Pato {
-    Cuaqueable cuaqueble;
-    Volable volar;
-  
+
+    protected Cuaqueable cuaqueble;
+    protected Volable volar;
+
     public Pato(Cuaqueable cuaqueble, Volable volar) {
         this.cuaqueble = cuaqueble;
         this.volar = volar;
@@ -14,5 +15,17 @@ public abstract class Pato {
     public void setVolar(Volable volar) {
         this.volar = volar;
     }
+
     public abstract void mostrar();
+
+    public void realizarCuaqueo() {
+        cuaqueble.cuaquear();
+    }
+    
+    public void realizarVuelo(){
+        cuaqueble.cuaquear();
+    }
+    public void nadar(){
+        System.out.println("Todos los Patos nadan");
+    }
 }
