@@ -1,0 +1,33 @@
+public class Simupato {
+
+    public static void main(String[] args) {
+        System.out.println("--- PATO REAL ---");
+        Pato pr = new PatoReal();
+        pr.mostrar();
+        pr.realizarVuelo();
+        pr.realizarCuaqueo();
+        pr.nadar();
+
+        System.out.println("\n--- PATO CABEZA ROJA ---");
+        Pato pcr = new PatoCabezaRoja();
+        pcr.mostrar();
+        pcr.realizarVuelo();
+        pcr.realizarCuaqueo();
+        pcr.nadar();
+
+        System.out.println("\n--- PATO DE GOMA ---");
+        Pato pg = new PatodeGoma();
+        pg.mostrar();
+        pg.realizarVuelo();
+        pg.realizarCuaqueo();
+        pg.nadar();
+
+        System.out.println("\n--- PATO SEÑUELO ---");
+        Pato ps = new PatoSeñuelo();
+        ps.mostrar();
+        ps.realizarVuelo();
+        ps.realizarCuaqueo();
+        ps.nadar();
+
+    }
+}
