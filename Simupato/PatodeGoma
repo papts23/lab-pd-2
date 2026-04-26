@@ -11,7 +11,11 @@ package simupato;
 public class PatodeGoma extends Pato{
 
     public PatodeGoma() {
-     
+        Volable v2 = new NoVuela();
+        Cuaqueable c2 = new Chirreo();
+        
+        super.setCuaqueble(c2);
+        super.setVolar(v2);
     }
 
     @Override
