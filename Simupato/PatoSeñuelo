@@ -1,7 +1,7 @@
 public class PatoSeñuelo extends Pato{
 
-    public PatoSeñuelo(Cuaqueable cuaqueble, Volable volar) {
-        super(cuaqueble, volar);
+    public PatoSeñuelo() {
+        
     }
     
     @Override

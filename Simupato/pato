@@ -3,9 +3,8 @@ public abstract class Pato {
     protected Cuaqueable cuaqueble;
     protected Volable volar;
 
-    public Pato(Cuaqueable cuaqueble, Volable volar) {
-        this.cuaqueble = cuaqueble;
-        this.volar = volar;
+    public Pato() {
+        
     }
 
     public void setCuaqueble(Cuaqueable cuaqueble) {

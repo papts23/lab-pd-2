@@ -10,8 +10,8 @@ package simupato;
  */
 public class PatodeGoma extends Pato{
 
-    public PatodeGoma(Cuaqueable cuaqueble, Volable volar) {
-        super(cuaqueble, volar);
+    public PatodeGoma() {
+     
     }
 
     @Override
