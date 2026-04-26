@@ -1,0 +1,15 @@
+public class PatoCabezaRoja extends Pato {
+    public PatoCabezaRoja() {
+       
+        Volable v3 = new VueloconAlas();
+        Cuaqueable c3 = new Cuaqueo();
+        
+        super.setVolar(v3);
+        super.setCuaqueble(c3);
+    }
+
+    @Override
+    public void mostrar() {
+        System.out.println("Soy un verdadero Pato Cabeza Roja.");
+    }
+}
