@@ -1,7 +1,7 @@
 public abstract class Pato {
 
     protected Cuaqueable cuaqueble;
-    protected Volable volar;
+    protected Volable volable;
 
     public Pato() {
         
@@ -12,7 +12,7 @@ public abstract class Pato {
     }
 
     public void setVolar(Volable volar) {
-        this.volar = volar;
+        this.volable = volar;
     }
 
     public abstract void mostrar();
@@ -22,7 +22,7 @@ public abstract class Pato {
     }
     
     public void realizarVuelo(){
-        cuaqueble.cuaquear();
+        volable.volar();
     }
     public void nadar(){
         System.out.println("Todos los Patos nadan");
